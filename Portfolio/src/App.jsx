@@ -1,6 +1,5 @@
 
 import './App.css'
-import OptionCard from './Components/PageFive/OptionCard'
 import PageFour from './Components/PageThree/PageFour/PageFour'
 import PageThree from './Components/PageThree/PageThree'
 import Left from "./Components/leftsection/Left"

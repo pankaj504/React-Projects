@@ -51,7 +51,7 @@ const VerifyEmail = () => {
           <a href="">Inspiration</a><a href="">Find Work</a><a href="">Learn Design  </a><a href="">Go Pro</a><a href="">Hire Designer</a>
         </div>
         <div className="header-right">
-          <i class="fas fa-search search-icon"></i>
+          <i className="fas fa-search search-icon"></i>
           <input type="search" placeholder='Search' />
           <img src="/briefcase.png" alt="" />
           <img src="/photo-1711580377289-eecd23d00370.avif" alt="logo" />
