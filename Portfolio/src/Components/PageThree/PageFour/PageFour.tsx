@@ -37,7 +37,7 @@ const PageFour = () => {
             <Paper key={index} elevation={0} className="card">
               <img src={value.images} alt="" />
               <h2>{value.title}</h2>
-              <input type="radio" name="" id="" />
+              <input type="radio" name="names" id={`naming-${index}`} autoComplete='current-password'/>
             </Paper>
           ))}
         </div>

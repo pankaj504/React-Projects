@@ -12,29 +12,29 @@ const Left = () => {
                     <footer>Art by <span>Peter Tarke</span></footer>
                 </div>
                 <div className="left2">
-                    <form action="" id='form'>
+                    <form action="" id='form' name='forms'>
 
                         <h2>Sign up to Dribble</h2>
                         <div className="input-bar">
                             <div>
                                 <label htmlFor="name">Name</label>
-                                <input type="text" name="name" id="name" />
+                                <input type="text" name="names" id="name" autoComplete='current-password' />
                             </div>
                             <div>
                                 <label htmlFor="username">Username</label>
-                                <input type="text" name="username" id="username" />
+                                <input type="text" name="username1" id="username" autoComplete='current-password' />
                             </div>
 
                         </div>
                         <div className='input2-bar'>
                             <label htmlFor="email">Email address
-                                <input type="text" name="" id="A" /></label>
+                                <input type="text" name="email1" id="email" autoComplete='current-password' /></label>
                             <label htmlFor="password">Password
-                                <input type="text" name="" id="A" placeholder='6+ characters' /></label>
+                                <input type="text" name="pass" id="password" placeholder='6+ characters'  autoComplete='current-password'/></label>
 
                         </div>
                         <div className='check'>
-                            <input type="checkbox" />
+                            <input type="checkbox"  name='check' id='boxcheck' autoComplete='current-password'/>
                             <p> Creating an account means you're okay with our <a href="">Terms of Services, Privacy Policy, </a> and our default <a href="">Notification Settings.</a></p>
                         </div>
                         <div className="last">

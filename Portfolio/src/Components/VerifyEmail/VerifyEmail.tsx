@@ -52,7 +52,7 @@ const VerifyEmail = () => {
         </div>
         <div className="header-right">
           <i className="fas fa-search search-icon"></i>
-          <input type="search" placeholder='Search' />
+          <input type="search" placeholder='Search' id='searchbar' />
           <img src="/briefcase.png" alt="" />
           <img src="/photo-1711580377289-eecd23d00370.avif" alt="logo" />
           <button>Upload</button>

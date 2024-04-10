@@ -38,7 +38,7 @@ const PageFive = () => {
             <Paper key={index} elevation={0} className="card">
               <img src={value.images} alt="" />
               <h2>{value.title}</h2>
-              <input type="radio" name="" id="" />
+              <input type="radio" name="inputf" id={`field-${index}`} autoComplete='email'/>
             </Paper>
           ))}
         </div>
