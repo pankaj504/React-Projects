@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+height: 100vh;
+}
+
+.header-text h3 {
+  font-family: Pacifico, Amsterdam;
+  font-size: 1.7rem;
+  color: #ee6cb6;
+  font-weight: 100;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-text .btn {
+  align-items: center;
+ width: 30px;
+ height: 30px;
+  color: black;
+  background: rgb(225, 223, 223);
+  border: none;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.PageFour-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+  margin-bottom: 100px;
+}
+
+.PageFour-section h2 {
+  font-size: 2rem;
+  line-height: 90px;
+  word-spacing: 5px;
+}
+
+.PageFour-section p {
+  color: gray;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.card {
+  padding: 35px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 1px solid rgb(229, 224, 224);
+  border-radius: 25px;
+}
+
+.cards-container img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+
+}
+
+.cards-container h2 {
+  font-size: 1rem;
+}
+
+.header .btn2 {
+
+  width: 170px;
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #DF548A;
+  border: none;
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header{
+height: auto;
+display: grid;
+grid-template-columns: 1fr;
+  }
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* align-items: center; */
+  }
+}

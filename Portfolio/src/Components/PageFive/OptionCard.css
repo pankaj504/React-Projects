@@ -1,0 +1,52 @@
+.option-card {
+ /* height: 100vh; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 10px;
+ margin: 10px;
+ margin-top: 50px;
+ border: 1px solid #ccc;
+ border-radius: 25px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+.option-card:hover {
+ background-color: #f5f5f5;
+}
+
+.option-card img {
+ /* border: 1px solid rgb(198, 26, 26); */
+
+ width: 300px;
+ height: 200px;
+ margin-bottom: 10px;
+ object-fit: cover;
+}
+.option-card input{
+ width: 20px;
+ height: 20px;
+}
+.option-card h3 {
+ font-size: 16px;
+ margin: 0;
+}
+
+/* Button styles */
+.dribbble-signup button {
+ background-color: #ea4c89;
+ color: #fff;
+ border: none;
+ width: 170px;
+ padding: 10px 20px;
+ font-size: 16px;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-top: 20px;
+ transition: background-color 0.3s ease;
+}
+
+.dribbble-signup button:hover {
+ background-color: #d6418f;
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.left-bar {
+  display: flex;
+  height: 100vh;
+  gap: 200px;
+  border-width: 5px;
+/* overflow-y: scroll; */
+overflow-y: scroll;
+overflow-x: hidden;
+scroll-snap-type: y mandatory;
+}
+
+* {
+  --color: #F3D184;
+}
+
+.left-content {
+width: 300px;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--color);
+  padding: 50px;
+ 
+}
+.left-content  span{
+text-decoration: underline;
+font-weight: 300;
+}
+
+.left-content p {
+  font-family: Pacifico;
+  font-size: 2rem;
+  color: #c99f3c;
+  margin-bottom: 20px;
+
+
+}
+.left-content h3{
+  font-size: 1.4rem;
+  color: #67511c;
+
+}
+.left-content footer{
+  color: #8d6f28;
+  font-weight: 600;
+ 
+}
+.img{
+  margin-left: -60px;
+  margin-top: 10px;
+}
+.img img {
+object-fit: cover;
+height: 400px;
+width: 400px;
+}
+
+.left2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.left2 form {
+  width: 355px;
+  margin-top: 80px;
+}
+
+.left2 form input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(128, 128, 128, 0.228);
+}
+
+.input-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.input-bar>div {
+  margin-right: 20px;
+}
+
+.input-bar label {
+  margin-bottom: 5px;
+}
+
+.input-bar input {
+  width: 210px;
+}
+
+.input2-bar {
+min-width: min-content;
+display: flex;
+gap: 30px;
+margin-top: 30px;
+
+
+flex-direction: column;
+}
+
+
+
+.input2-bar input {
+  width: 480px;
+
+
+}
+.input2-bar p{
+  color: grey;
+  
+}
+.input2-bar a{
+  text-decoration: none;
+}
+.last{
+  width: 420px;
+ 
+}
+.last a{
+  text-decoration: none;
+}
+.last button{
+  width: 170px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #DF548A;
+  border: none;
+  margin: 40px 0;
+}
+
+
+.check{
+
+ display: flex;
+width: 500px;
+ gap: 10px;
+ margin-top: 30px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .left-bar {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    height: auto; 
+    padding: 20px; 
+  }
+
+  .left-content {
+    width: 100%; 
+    padding: 20px; 
+  }
+
+  .img img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .left2 form {
+    width: 100%; 
+  }
+
+  .input-bar,
+  .input2-bar {
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .input-bar input,
+  .input2-bar input {
+    width: 100%; 
+  }
+
+  .check {
+    width: 100%; 
+  }
+
+  .last button {
+    width: 100%; 
+  
+}
+}
